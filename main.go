@@ -49,6 +49,15 @@ func main() {
 	inc(&v)
 	fmt.Println(v)
 
+	fmt.Println("\n\n")
+
+	a := 1
+	b := 3
+	fmt.Println(a & b)
+	fmt.Println(a | b)
+	fmt.Println(a ^ b)
+	fmt.Println(a &^ b)
+
 }
 
 func arrayTests() {
